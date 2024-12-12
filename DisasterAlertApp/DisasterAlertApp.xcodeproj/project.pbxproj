@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		448282202D0B50E200D80360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448282062D0B50DB00D80360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4482820D2D0B50DC00D80360;
+			remoteInfo = DisasterAlertApp;
+		};
+		4482822A2D0B50E200D80360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448282062D0B50DB00D80360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4482820D2D0B50DC00D80360;
+			remoteInfo = DisasterAlertApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4482820E2D0B50DC00D80360 /* DisasterAlertApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisasterAlertApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4482821F2D0B50E200D80360 /* DisasterAlertAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisasterAlertAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		448282292D0B50E200D80360 /* DisasterAlertAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisasterAlertAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		448282102D0B50DC00D80360 /* DisasterAlertApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertApp;
+			sourceTree = "<group>";
+		};
+		448282222D0B50E200D80360 /* DisasterAlertAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertAppTests;
+			sourceTree = "<group>";
+		};
+		4482822C2D0B50E200D80360 /* DisasterAlertAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4482820B2D0B50DC00D80360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4482821C2D0B50E200D80360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448282262D0B50E200D80360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448282052D0B50DB00D80360 = {
+			isa = PBXGroup;
+			children = (
+				448282102D0B50DC00D80360 /* DisasterAlertApp */,
+				448282222D0B50E200D80360 /* DisasterAlertAppTests */,
+				4482822C2D0B50E200D80360 /* DisasterAlertAppUITests */,
+				4482820F2D0B50DC00D80360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4482820F2D0B50DC00D80360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4482820E2D0B50DC00D80360 /* DisasterAlertApp.app */,
+				4482821F2D0B50E200D80360 /* DisasterAlertAppTests.xctest */,
+				448282292D0B50E200D80360 /* DisasterAlertAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4482820D2D0B50DC00D80360 /* DisasterAlertApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448282332D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertApp" */;
+			buildPhases = (
+				4482820A2D0B50DC00D80360 /* Sources */,
+				4482820B2D0B50DC00D80360 /* Frameworks */,
+				4482820C2D0B50DC00D80360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				448282102D0B50DC00D80360 /* DisasterAlertApp */,
+			);
+			name = DisasterAlertApp;
+			packageProductDependencies = (
+			);
+			productName = DisasterAlertApp;
+			productReference = 4482820E2D0B50DC00D80360 /* DisasterAlertApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4482821E2D0B50E200D80360 /* DisasterAlertAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448282362D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertAppTests" */;
+			buildPhases = (
+				4482821B2D0B50E200D80360 /* Sources */,
+				4482821C2D0B50E200D80360 /* Frameworks */,
+				4482821D2D0B50E200D80360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448282212D0B50E200D80360 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				448282222D0B50E200D80360 /* DisasterAlertAppTests */,
+			);
+			name = DisasterAlertAppTests;
+			packageProductDependencies = (
+			);
+			productName = DisasterAlertAppTests;
+			productReference = 4482821F2D0B50E200D80360 /* DisasterAlertAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		448282282D0B50E200D80360 /* DisasterAlertAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448282392D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertAppUITests" */;
+			buildPhases = (
+				448282252D0B50E200D80360 /* Sources */,
+				448282262D0B50E200D80360 /* Frameworks */,
+				448282272D0B50E200D80360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4482822B2D0B50E200D80360 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4482822C2D0B50E200D80360 /* DisasterAlertAppUITests */,
+			);
+			name = DisasterAlertAppUITests;
+			packageProductDependencies = (
+			);
+			productName = DisasterAlertAppUITests;
+			productReference = 448282292D0B50E200D80360 /* DisasterAlertAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448282062D0B50DB00D80360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4482820D2D0B50DC00D80360 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4482821E2D0B50E200D80360 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4482820D2D0B50DC00D80360;
+					};
+					448282282D0B50E200D80360 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4482820D2D0B50DC00D80360;
+					};
+				};
+			};
+			buildConfigurationList = 448282092D0B50DB00D80360 /* Build configuration list for PBXProject "DisasterAlertApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448282052D0B50DB00D80360;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4482820F2D0B50DC00D80360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4482820D2D0B50DC00D80360 /* DisasterAlertApp */,
+				4482821E2D0B50E200D80360 /* DisasterAlertAppTests */,
+				448282282D0B50E200D80360 /* DisasterAlertAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4482820C2D0B50DC00D80360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4482821D2D0B50E200D80360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448282272D0B50E200D80360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4482820A2D0B50DC00D80360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4482821B2D0B50E200D80360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448282252D0B50E200D80360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448282212D0B50E200D80360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4482820D2D0B50DC00D80360 /* DisasterAlertApp */;
+			targetProxy = 448282202D0B50E200D80360 /* PBXContainerItemProxy */;
+		};
+		4482822B2D0B50E200D80360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4482820D2D0B50DC00D80360 /* DisasterAlertApp */;
+			targetProxy = 4482822A2D0B50E200D80360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		448282312D0B50E200D80360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448282322D0B50E200D80360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		448282342D0B50E200D80360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisasterAlertApp/DisasterAlertApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisasterAlertApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		448282352D0B50E200D80360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisasterAlertApp/DisasterAlertApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisasterAlertApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		448282372D0B50E200D80360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisasterAlertApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisasterAlertApp";
+			};
+			name = Debug;
+		};
+		448282382D0B50E200D80360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisasterAlertApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisasterAlertApp";
+			};
+			name = Release;
+		};
+		4482823A2D0B50E200D80360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisasterAlertApp;
+			};
+			name = Debug;
+		};
+		4482823B2D0B50E200D80360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisasterAlertApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448282092D0B50DB00D80360 /* Build configuration list for PBXProject "DisasterAlertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448282312D0B50E200D80360 /* Debug */,
+				448282322D0B50E200D80360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448282332D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448282342D0B50E200D80360 /* Debug */,
+				448282352D0B50E200D80360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448282362D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448282372D0B50E200D80360 /* Debug */,
+				448282382D0B50E200D80360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448282392D0B50E200D80360 /* Build configuration list for PBXNativeTarget "DisasterAlertAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4482823A2D0B50E200D80360 /* Debug */,
+				4482823B2D0B50E200D80360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448282062D0B50DB00D80360 /* Project object */;
+}
