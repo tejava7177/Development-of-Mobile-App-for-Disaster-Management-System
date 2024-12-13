@@ -5,13 +5,24 @@
 //  Created by 심주흔 on 12/13/24.
 //
 
-import SwiftUI
+import AWSMobileClient
 
 @main
-struct DisasterAlertAppApp: App {
+struct DisasterAlertApp: App {
+    init() {
+        AWSMobileClient.default().initialize { (userState, error) in
+            if let error = error {
+                print("AWSMobileClient Initialization Error: \(error.localizedDescription)")
+            } else {
+                print("AWSMobileClient Initialized: \(userState?.rawValue ?? "unknown")")
+            }
+        }
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
     }
 }
+
