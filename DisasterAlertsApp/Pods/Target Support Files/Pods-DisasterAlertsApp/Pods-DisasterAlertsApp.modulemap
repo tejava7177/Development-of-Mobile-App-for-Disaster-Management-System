@@ -1,0 +1,6 @@
+framework module Pods_DisasterAlertsApp {
+  umbrella header "Pods-DisasterAlertsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

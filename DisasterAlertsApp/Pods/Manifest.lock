@@ -1,0 +1,47 @@
+PODS:
+  - AWSAuthCore (2.38.0):
+    - AWSCore (= 2.38.0)
+  - AWSCognitoIdentityProvider (2.38.0):
+    - AWSCognitoIdentityProviderASF (= 2.38.0)
+    - AWSCore (= 2.38.0)
+  - AWSCognitoIdentityProviderASF (2.38.0):
+    - AWSCore (= 2.38.0)
+  - AWSCore (2.38.0)
+  - AWSLambda (2.38.0):
+    - AWSCore (= 2.38.0)
+  - AWSMobileClient (2.38.0):
+    - AWSAuthCore (= 2.38.0)
+    - AWSCognitoIdentityProvider (= 2.38.0)
+    - AWSCognitoIdentityProviderASF (= 2.38.0)
+    - AWSCore (= 2.38.0)
+  - AWSSNS (2.38.0):
+    - AWSCore (= 2.38.0)
+
+DEPENDENCIES:
+  - AWSCore
+  - AWSLambda
+  - AWSMobileClient
+  - AWSSNS
+
+SPEC REPOS:
+  trunk:
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSLambda
+    - AWSMobileClient
+    - AWSSNS
+
+SPEC CHECKSUMS:
+  AWSAuthCore: 34203572ec6facb93ac93eddc9391378c5ae66e2
+  AWSCognitoIdentityProvider: 80d85006e5684086e41cea3dafbb8414bf63b6b1
+  AWSCognitoIdentityProviderASF: 4dbe43f9da7f98c8346375947db0db443dfdc2d7
+  AWSCore: daf6c241f66465c8df96f7f89f7f3bfc577d85f5
+  AWSLambda: 2c31d61e4e4fac1b0898ae353f3653e547e75d2d
+  AWSMobileClient: 1d699479f33b53a03e042861a65030bda9bf9949
+  AWSSNS: 0f272efa0546f8665e9c77cdbb768daaace1d159
+
+PODFILE CHECKSUM: b7a033c7372a5c60599e18d4d23477036cc28e66
+
+COCOAPODS: 1.16.2

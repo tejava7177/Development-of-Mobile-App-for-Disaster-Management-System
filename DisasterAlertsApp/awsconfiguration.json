@@ -1,0 +1,24 @@
+{
+    "Version": "1.0",
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "ap-northeast-2_PU6B6MfJH",
+            "AppClientId": "7iootvarhfhpv6v18g91cievhu",
+            "Region": "ap-northeast-2"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "IdentityPoolId": "ap-northeast-2:86f43546-d587-4c18-9156-d763132e758e",
+                "Region": "ap-northeast-2"
+            }
+        }
+    },
+    "SNS": {
+        "Default": {
+            "Region": "ap-northeast-2"
+        }
+    }
+}
+

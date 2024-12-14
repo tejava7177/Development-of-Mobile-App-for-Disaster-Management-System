@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443761F02D0D9E3800602F08 /* Pods_DisasterAlertsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87962B7E53628489A7BCD07C /* Pods_DisasterAlertsApp.framework */; };
+		443761F12D0D9E3800602F08 /* Pods_DisasterAlertsApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87962B7E53628489A7BCD07C /* Pods_DisasterAlertsApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		443761F62D0DB7A200602F08 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 443761F52D0DB7A200602F08 /* awsconfiguration.json */; };
+		6418974A72B68025D25E318E /* Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EBE3736D1007A79A42509 /* Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework */; };
+		647C7EFAF5C3522F20E0E81D /* Pods_DisasterAlertsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10193CB9872A5AE1309291D0 /* Pods_DisasterAlertsAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		443761B42D0D9C3F00602F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4437619A2D0D9C3700602F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443761A12D0D9C3800602F08;
+			remoteInfo = DisasterAlertsApp;
+		};
+		443761BE2D0D9C3F00602F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4437619A2D0D9C3700602F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443761A12D0D9C3800602F08;
+			remoteInfo = DisasterAlertsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		443761F22D0D9E3800602F08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				443761F12D0D9E3800602F08 /* Pods_DisasterAlertsApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10193CB9872A5AE1309291D0 /* Pods_DisasterAlertsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisasterAlertsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B7367E75CBBF8A2BBF13D0 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsApp-DisasterAlertsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsApp-DisasterAlertsAppUITests/Pods-DisasterAlertsApp-DisasterAlertsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		443761A22D0D9C3800602F08 /* DisasterAlertsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisasterAlertsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443761B32D0D9C3F00602F08 /* DisasterAlertsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisasterAlertsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443761BD2D0D9C3F00602F08 /* DisasterAlertsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisasterAlertsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		443761F52D0DB7A200602F08 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		6A0394D0175184CF141ABBC5 /* Pods-DisasterAlertsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsApp.debug.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsApp/Pods-DisasterAlertsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		713EBE3736D1007A79A42509 /* Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BA36DFFA774BF33C919CE8 /* Pods-DisasterAlertsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsAppTests/Pods-DisasterAlertsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		862BCAA75EA9BEE7627EA551 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsApp-DisasterAlertsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsApp-DisasterAlertsAppUITests/Pods-DisasterAlertsApp-DisasterAlertsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87962B7E53628489A7BCD07C /* Pods_DisasterAlertsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisasterAlertsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997AF1C4EC373B226FE274F2 /* Pods-DisasterAlertsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsAppTests.release.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsAppTests/Pods-DisasterAlertsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		99E753EF82761192B8E1A04A /* Pods-DisasterAlertsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisasterAlertsApp.release.xcconfig"; path = "Target Support Files/Pods-DisasterAlertsApp/Pods-DisasterAlertsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		443761A42D0D9C3800602F08 /* DisasterAlertsApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertsApp;
+			sourceTree = "<group>";
+		};
+		443761B62D0D9C3F00602F08 /* DisasterAlertsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertsAppTests;
+			sourceTree = "<group>";
+		};
+		443761C02D0D9C3F00602F08 /* DisasterAlertsAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisasterAlertsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4437619F2D0D9C3800602F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443761F02D0D9E3800602F08 /* Pods_DisasterAlertsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761B02D0D9C3F00602F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647C7EFAF5C3522F20E0E81D /* Pods_DisasterAlertsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761BA2D0D9C3F00602F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6418974A72B68025D25E318E /* Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C11EDAA5631B2DFAD0A9151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A0394D0175184CF141ABBC5 /* Pods-DisasterAlertsApp.debug.xcconfig */,
+				99E753EF82761192B8E1A04A /* Pods-DisasterAlertsApp.release.xcconfig */,
+				37B7367E75CBBF8A2BBF13D0 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.debug.xcconfig */,
+				862BCAA75EA9BEE7627EA551 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.release.xcconfig */,
+				83BA36DFFA774BF33C919CE8 /* Pods-DisasterAlertsAppTests.debug.xcconfig */,
+				997AF1C4EC373B226FE274F2 /* Pods-DisasterAlertsAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		443761992D0D9C3700602F08 = {
+			isa = PBXGroup;
+			children = (
+				443761A42D0D9C3800602F08 /* DisasterAlertsApp */,
+				443761B62D0D9C3F00602F08 /* DisasterAlertsAppTests */,
+				443761C02D0D9C3F00602F08 /* DisasterAlertsAppUITests */,
+				443761A32D0D9C3800602F08 /* Products */,
+				1C11EDAA5631B2DFAD0A9151 /* Pods */,
+				9B1235CA875132005FA3E6A9 /* Frameworks */,
+				443761F52D0DB7A200602F08 /* awsconfiguration.json */,
+			);
+			sourceTree = "<group>";
+		};
+		443761A32D0D9C3800602F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443761A22D0D9C3800602F08 /* DisasterAlertsApp.app */,
+				443761B32D0D9C3F00602F08 /* DisasterAlertsAppTests.xctest */,
+				443761BD2D0D9C3F00602F08 /* DisasterAlertsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1235CA875132005FA3E6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87962B7E53628489A7BCD07C /* Pods_DisasterAlertsApp.framework */,
+				713EBE3736D1007A79A42509 /* Pods_DisasterAlertsApp_DisasterAlertsAppUITests.framework */,
+				10193CB9872A5AE1309291D0 /* Pods_DisasterAlertsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443761A12D0D9C3800602F08 /* DisasterAlertsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443761C72D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsApp" */;
+			buildPhases = (
+				65221C067AA0E263648808C3 /* [CP] Check Pods Manifest.lock */,
+				4437619E2D0D9C3800602F08 /* Sources */,
+				4437619F2D0D9C3800602F08 /* Frameworks */,
+				443761A02D0D9C3800602F08 /* Resources */,
+				09142F87B36EA7A6A111D1E3 /* [CP] Embed Pods Frameworks */,
+				443761F22D0D9E3800602F08 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				443761A42D0D9C3800602F08 /* DisasterAlertsApp */,
+			);
+			name = DisasterAlertsApp;
+			productName = DisasterAlertsApp;
+			productReference = 443761A22D0D9C3800602F08 /* DisasterAlertsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		443761B22D0D9C3F00602F08 /* DisasterAlertsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443761CA2D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsAppTests" */;
+			buildPhases = (
+				1B4C9626925A8E5A2F6F6AF1 /* [CP] Check Pods Manifest.lock */,
+				443761AF2D0D9C3F00602F08 /* Sources */,
+				443761B02D0D9C3F00602F08 /* Frameworks */,
+				443761B12D0D9C3F00602F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443761B52D0D9C3F00602F08 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				443761B62D0D9C3F00602F08 /* DisasterAlertsAppTests */,
+			);
+			name = DisasterAlertsAppTests;
+			productName = DisasterAlertsAppTests;
+			productReference = 443761B32D0D9C3F00602F08 /* DisasterAlertsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		443761BC2D0D9C3F00602F08 /* DisasterAlertsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443761CD2D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsAppUITests" */;
+			buildPhases = (
+				5A8100831C973CBBB3298120 /* [CP] Check Pods Manifest.lock */,
+				443761B92D0D9C3F00602F08 /* Sources */,
+				443761BA2D0D9C3F00602F08 /* Frameworks */,
+				443761BB2D0D9C3F00602F08 /* Resources */,
+				F0EF33AF083BBD7D1A9107C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443761BF2D0D9C3F00602F08 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				443761C02D0D9C3F00602F08 /* DisasterAlertsAppUITests */,
+			);
+			name = DisasterAlertsAppUITests;
+			productName = DisasterAlertsAppUITests;
+			productReference = 443761BD2D0D9C3F00602F08 /* DisasterAlertsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4437619A2D0D9C3700602F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					443761A12D0D9C3800602F08 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					443761B22D0D9C3F00602F08 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 443761A12D0D9C3800602F08;
+					};
+					443761BC2D0D9C3F00602F08 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 443761A12D0D9C3800602F08;
+					};
+				};
+			};
+			buildConfigurationList = 4437619D2D0D9C3700602F08 /* Build configuration list for PBXProject "DisasterAlertsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443761992D0D9C3700602F08;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 443761A32D0D9C3800602F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443761A12D0D9C3800602F08 /* DisasterAlertsApp */,
+				443761B22D0D9C3F00602F08 /* DisasterAlertsAppTests */,
+				443761BC2D0D9C3F00602F08 /* DisasterAlertsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443761A02D0D9C3800602F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443761F62D0DB7A200602F08 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761B12D0D9C3F00602F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761BB2D0D9C3F00602F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09142F87B36EA7A6A111D1E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp/Pods-DisasterAlertsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp/Pods-DisasterAlertsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp/Pods-DisasterAlertsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B4C9626925A8E5A2F6F6AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisasterAlertsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A8100831C973CBBB3298120 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisasterAlertsApp-DisasterAlertsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65221C067AA0E263648808C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisasterAlertsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0EF33AF083BBD7D1A9107C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp-DisasterAlertsAppUITests/Pods-DisasterAlertsApp-DisasterAlertsAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp-DisasterAlertsAppUITests/Pods-DisasterAlertsApp-DisasterAlertsAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisasterAlertsApp-DisasterAlertsAppUITests/Pods-DisasterAlertsApp-DisasterAlertsAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4437619E2D0D9C3800602F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761AF2D0D9C3F00602F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443761B92D0D9C3F00602F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		443761B52D0D9C3F00602F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443761A12D0D9C3800602F08 /* DisasterAlertsApp */;
+			targetProxy = 443761B42D0D9C3F00602F08 /* PBXContainerItemProxy */;
+		};
+		443761BF2D0D9C3F00602F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443761A12D0D9C3800602F08 /* DisasterAlertsApp */;
+			targetProxy = 443761BE2D0D9C3F00602F08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		443761C52D0D9C3F00602F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		443761C62D0D9C3F00602F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		443761C82D0D9C3F00602F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0394D0175184CF141ABBC5 /* Pods-DisasterAlertsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisasterAlertsApp/DisasterAlertsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisasterAlertsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSAuthCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProvider\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProviderASF\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSSNS\"",
+					"${PODS_CONFIGURATION_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		443761C92D0D9C3F00602F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E753EF82761192B8E1A04A /* Pods-DisasterAlertsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisasterAlertsApp/DisasterAlertsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisasterAlertsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSAuthCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProvider\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCognitoIdentityProviderASF\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSMobileClient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSSNS\"",
+					"${PODS_CONFIGURATION_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		443761CB2D0D9C3F00602F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BA36DFFA774BF33C919CE8 /* Pods-DisasterAlertsAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisasterAlertsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisasterAlertsApp";
+			};
+			name = Debug;
+		};
+		443761CC2D0D9C3F00602F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997AF1C4EC373B226FE274F2 /* Pods-DisasterAlertsAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisasterAlertsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisasterAlertsApp";
+			};
+			name = Release;
+		};
+		443761CE2D0D9C3F00602F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B7367E75CBBF8A2BBF13D0 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisasterAlertsApp;
+			};
+			name = Debug;
+		};
+		443761CF2D0D9C3F00602F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862BCAA75EA9BEE7627EA551 /* Pods-DisasterAlertsApp-DisasterAlertsAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepLearning.DisasterAlertsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisasterAlertsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4437619D2D0D9C3700602F08 /* Build configuration list for PBXProject "DisasterAlertsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443761C52D0D9C3F00602F08 /* Debug */,
+				443761C62D0D9C3F00602F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443761C72D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443761C82D0D9C3F00602F08 /* Debug */,
+				443761C92D0D9C3F00602F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443761CA2D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443761CB2D0D9C3F00602F08 /* Debug */,
+				443761CC2D0D9C3F00602F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443761CD2D0D9C3F00602F08 /* Build configuration list for PBXNativeTarget "DisasterAlertsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443761CE2D0D9C3F00602F08 /* Debug */,
+				443761CF2D0D9C3F00602F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4437619A2D0D9C3700602F08 /* Project object */;
+}
