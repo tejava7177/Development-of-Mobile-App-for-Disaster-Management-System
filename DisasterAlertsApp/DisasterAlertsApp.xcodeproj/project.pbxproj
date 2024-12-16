@@ -227,45 +227,34 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4437619A2D0D9C3700602F08 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
-				TargetAttributes = {
-					443761A12D0D9C3800602F08 = {
-						CreatedOnToolsVersion = 16.2;
-					};
-					443761B22D0D9C3F00602F08 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 443761A12D0D9C3800602F08;
-					};
-					443761BC2D0D9C3F00602F08 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 443761A12D0D9C3800602F08;
-					};
-				};
-			};
-			buildConfigurationList = 4437619D2D0D9C3700602F08 /* Build configuration list for PBXProject "DisasterAlertsApp" */;
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 443761992D0D9C3700602F08;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 443761A32D0D9C3800602F08 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				443761A12D0D9C3800602F08 /* DisasterAlertsApp */,
-				443761B22D0D9C3F00602F08 /* DisasterAlertsAppTests */,
-				443761BC2D0D9C3F00602F08 /* DisasterAlertsAppUITests */,
-			);
-		};
+/* Begin PBXProject section */
+4437619A2D0D9C3700602F08 /* Project object */ = {
+    isa = PBXProject;
+    attributes = {
+        BuildIndependentTargetsInParallel = 1;
+        LastSwiftUpdateCheck = 1620;
+        LastUpgradeCheck = 1620;
+        TargetAttributes = {
+            443761A12D0D9C3800602F08 = {
+                CreatedOnToolsVersion = 16.2;
+            };
+        };
+    };
+    compatibilityVersion = "Xcode 14.0";
+    buildConfigurationList = 4437619D2D0D9C3700602F08 /* Build configuration list for PBXProject "DisasterAlertsApp" */;
+    developmentRegion = en;
+    hasScannedForEncodings = 0;
+    knownRegions = (
+        en,
+        Base,
+    );
+    mainGroup = 443761992D0D9C3700602F08;
+    targets = (
+        443761A12D0D9C3800602F08 /* DisasterAlertsApp */,
+    );
+};
+/* End PBXProject section */
+
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */

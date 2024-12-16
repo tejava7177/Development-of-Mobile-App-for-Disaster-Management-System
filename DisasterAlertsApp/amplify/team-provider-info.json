@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-disasteralertsapp-dev-dd8c0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654289412:role/amplify-disasteralertsapp-dev-dd8c0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654289412:role/amplify-disasteralertsapp-dev-dd8c0-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-disasteralertsapp-dev-dd8c0-deployment",
+      "UnauthRoleName": "amplify-disasteralertsapp-dev-dd8c0-unauthRole",
+      "StackName": "amplify-disasteralertsapp-dev-dd8c0",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:654654289412:stack/amplify-disasteralertsapp-dev-dd8c0/4bc3b8f0-ba9b-11ef-8b3f-0af81947ffb7",
+      "AmplifyAppId": "d1ctk1m9rp7s0z"
+    }
+  }
+}
